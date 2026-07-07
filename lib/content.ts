@@ -66,28 +66,85 @@ export const SERVICES = [
 
 export const PORTFOLIO = [
   {
+    slug: "point-of-sales",
     title: "Aplikasi Point of Sales",
-    description: "Sistem kasir digital untuk mencatat transaksi, stok, dan laporan penjualan secara real-time.",
+    category: "Web Development",
+    image: "/portfolio/point-of-sales.jpg",
+    description:
+      "Sistem kasir digital untuk mencatat transaksi, stok, dan laporan penjualan secara real-time.",
+    longDescription:
+      "Bandar POS adalah sistem kasir (Point of Sales) berbasis web yang dirancang untuk membantu pelaku usaha mencatat transaksi penjualan, mengelola stok barang, dan memantau laporan bisnis dari satu tempat. Sistem ini dibangun agar mudah dipakai oleh kasir di lapangan sekaligus memberi pemilik usaha visibilitas penuh atas operasional tokonya.",
+    highlights: [
+      "Pencatatan transaksi penjualan secara real-time",
+      "Manajemen stok dan produk terpusat",
+      "Laporan penjualan untuk pengambilan keputusan bisnis",
+      "Sistem login untuk keamanan akses kasir",
+    ],
     url: "https://bandar-pos-1.vercel.app/login",
   },
   {
+    slug: "company-profile",
     title: "Aplikasi Company Profile",
-    description: "Website profil perusahaan yang menampilkan informasi, kegiatan, dan layanan secara profesional.",
+    category: "Web Development",
+    image: "/portfolio/company-profile.jpg",
+    description:
+      "Website profil perusahaan yang menampilkan informasi, kegiatan, dan layanan secara profesional.",
+    longDescription:
+      "Website company profile untuk Paroki Yohanes Gabriel Perboyre (Stasi YGP) yang menampilkan jadwal kegiatan, informasi liturgi, pengumuman, dan kegiatan sosial komunitas. Dibangun dengan desain bersih dan navigasi sederhana agar informasi mudah diakses oleh jemaat maupun pengunjung baru.",
+    highlights: [
+      "Jadwal misa dan kalender liturgi",
+      "Pengumuman dan artikel kegiatan komunitas",
+      "Desain bersih dengan navigasi yang jelas",
+      "Informasi kontak dan kegiatan sosial",
+    ],
     url: "https://stasi-ygp-psi.vercel.app/",
   },
   {
+    slug: "prediksi-crypto",
     title: "Aplikasi Prediksi Crypto",
-    description: "Alat bantu analisis dan prediksi pergerakan harga Bitcoin berbasis data.",
+    category: "Data & Automation",
+    image: "/portfolio/prediksi-crypto.jpg",
+    description:
+      "Alat bantu analisis dan prediksi pergerakan harga Bitcoin berbasis data.",
+    longDescription:
+      "Aplikasi berbasis data yang membantu pengguna menganalisis dan memprediksi pergerakan harga Bitcoin. Dibangun untuk mengubah data pasar mentah menjadi insight yang lebih mudah dibaca, sehingga pengguna bisa mengambil keputusan berbasis data alih-alih tebakan semata.",
+    highlights: [
+      "Analisis tren pergerakan harga Bitcoin",
+      "Visualisasi data pasar yang mudah dipahami",
+      "Diproses dari data historis harga crypto",
+    ],
     url: "https://bitcoin-prediksi-1.vercel.app/",
   },
   {
+    slug: "ide-konten",
     title: "Aplikasi Ide Konten",
-    description: "Generator ide konten A-Z untuk membantu kebutuhan konten kreator dan tim marketing.",
+    category: "Web Development",
+    image: "/portfolio/ide-konten.jpg",
+    description:
+      "Generator ide konten A-Z untuk membantu kebutuhan konten kreator dan tim marketing.",
+    longDescription:
+      "A-Z Content Generator adalah aplikasi yang membantu kreator dan tim marketing keluar dari kebuntuan ide dengan menghasilkan variasi ide konten secara sistematis dari A sampai Z. Cocok dipakai untuk brainstorming konten media sosial, blog, maupun kampanye marketing.",
+    highlights: [
+      "Generate ide konten secara sistematis A-Z",
+      "Membantu proses brainstorming tim marketing/konten",
+      "Antarmuka simpel dan cepat dipakai",
+    ],
     url: "https://a-z-generator-ktr3.vercel.app/",
   },
   {
+    slug: "pembelajaran-marketing",
     title: "Aplikasi Pembelajaran Marketing",
-    description: "Platform edukasi marketing yang membantu pengguna belajar strategi pemasaran secara terstruktur.",
+    category: "Web Development",
+    image: "/portfolio/pembelajaran-marketing.jpg",
+    description:
+      "Platform edukasi marketing yang membantu pengguna belajar strategi pemasaran secara terstruktur.",
+    longDescription:
+      "Marketing OS adalah platform pembelajaran yang menyajikan materi strategi marketing secara terstruktur, membantu pengguna memahami konsep pemasaran dari dasar hingga penerapan praktis. Dirancang sebagai sistem belajar mandiri yang bisa diakses kapan saja.",
+    highlights: [
+      "Materi marketing terstruktur dari dasar ke praktis",
+      "Format belajar mandiri, bisa diakses kapan saja",
+      "Cocok untuk individu maupun tim marketing",
+    ],
     url: "https://marketing-os-amber-omega.vercel.app/",
   },
 ];
