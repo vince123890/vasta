@@ -9,6 +9,7 @@ export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIC
 export const NAV_LINKS = [
   { href: "#tentang", label: "Tentang" },
   { href: "#layanan", label: "Layanan" },
+  { href: "#portfolio", label: "Portfolio" },
   { href: "#proses", label: "Proses" },
   { href: "#kontak", label: "Kontak" },
 ];
@@ -60,6 +61,34 @@ export const SERVICES = [
   {
     title: "Data & Automation Solutions",
     description: "Integrasi data lintas sistem dan otomasi proses bisnis untuk efisiensi operasional.",
+  },
+];
+
+export const PORTFOLIO = [
+  {
+    title: "Aplikasi Point of Sales",
+    description: "Sistem kasir digital untuk mencatat transaksi, stok, dan laporan penjualan secara real-time.",
+    url: "https://bandar-pos-1.vercel.app/login",
+  },
+  {
+    title: "Aplikasi Company Profile",
+    description: "Website profil perusahaan yang menampilkan informasi, kegiatan, dan layanan secara profesional.",
+    url: "https://stasi-ygp-psi.vercel.app/",
+  },
+  {
+    title: "Aplikasi Prediksi Crypto",
+    description: "Alat bantu analisis dan prediksi pergerakan harga Bitcoin berbasis data.",
+    url: "https://bitcoin-prediksi-1.vercel.app/",
+  },
+  {
+    title: "Aplikasi Ide Konten",
+    description: "Generator ide konten A-Z untuk membantu kebutuhan konten kreator dan tim marketing.",
+    url: "https://a-z-generator-ktr3.vercel.app/",
+  },
+  {
+    title: "Aplikasi Pembelajaran Marketing",
+    description: "Platform edukasi marketing yang membantu pengguna belajar strategi pemasaran secara terstruktur.",
+    url: "https://marketing-os-amber-omega.vercel.app/",
   },
 ];
 
